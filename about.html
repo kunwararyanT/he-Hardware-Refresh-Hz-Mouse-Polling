@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - HardwareTest</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: { colors: { brand: { 500: '#3b82f6' } } } }
+    }
+  </script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col font-sans selection:bg-blue-500 selection:text-white">
+
+  <header class="border-b border-zinc-800 bg-zinc-900/50 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 hover:opacity-80 transition">
+        <span class="text-2xl">⚡</span>
+        <span class="font-extrabold text-lg tracking-tight text-white">Hardware<span class="text-blue-500">Test</span></span>
+      </a>
+    </div>
+  </header>
+
+  <main class="flex-1 max-w-3xl mx-auto w-full px-4 py-12 space-y-8">
+    <div class="text-center space-y-4 mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">Built for Performance.</h1>
+      <p class="text-zinc-400 text-base max-w-xl mx-auto">Providing zero-overhead, highly accurate browser diagnostics for the gaming and creator economy.</p>
+    </div>
+
+    <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8 shadow-xl space-y-6 text-sm text-zinc-300 leading-relaxed">
+      <h2 class="text-xl font-bold text-white mb-2">Our Mission</h2>
+      <p>HardwareTest is a registered digital product studio initiative spearheaded by Kunwar Aryan Tomar. We build lightweight, client-side Micro-SaaS tools engineered to solve specific technical bottlenecks without the bloat of legacy websites.</p>
+      
+      <p>Whether you are fine-tuning a custom PC build, ensuring your new ultra-high refresh rate monitor is actually outputting maximum frames, or verifying that your gaming mouse is genuinely polling at 1000Hz+, you need data you can trust instantly. That is why we built this diagnostic utility.</p>
+
+      <h2 class="text-xl font-bold text-white mt-8 mb-2">Why It's Free</h2>
+      <p>We believe essential system diagnostics shouldn't be hidden behind paywalls, intrusive pop-ups, or mandatory software downloads. By keeping our architecture efficient and utilizing ad networks to cover operational costs, we are able to offer these high-precision tools completely free to users worldwide.</p>
+    </div>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 bg-zinc-950 mt-auto">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
+      <p>© 2026 HardwareTest • High-Precision Utility Engine.</p>
+      <div class="flex space-x-4">
+        <a href="about.html" class="hover:text-zinc-300 transition">About</a>
+        <a href="privacy.html" class="hover:text-zinc-300 transition">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-zinc-300 transition">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
